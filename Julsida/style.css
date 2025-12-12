@@ -1,0 +1,48 @@
+html {
+    scroll-behavior: smooth;    
+}
+
+html * {
+    border: 1px solid black;
+}
+
+
+
+#menubar {
+    border: 4px double darkblue;
+    padding: 12px;
+
+    display: flex;              
+    justify-content: center;    
+    align-items: center;
+}
+
+#menubar ul {
+    flex: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    list-style: none;
+    gap: 8%;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+
+#menubar a {
+    color: black;
+    padding: 10px;
+    margin: 0;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "UnifrakturCook", 'serif';
+    text-align: center;
+}
+
+h2 {
+    font-family: "UnifrakturCook", 'serif';
+    padding-left: 12vw;
+}
