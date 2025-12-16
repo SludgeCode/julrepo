@@ -2,11 +2,9 @@ html {
     scroll-behavior: smooth;    
 }
 
-html * {
+/* html * {
     border: 1px solid black;
-}
-
-
+}*/
 
 #menubar {
     border: 4px double darkblue;
@@ -15,6 +13,23 @@ html * {
     display: flex;              
     justify-content: center;    
     align-items: center;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 20px;
+}
+
+#infolist {
+    border: 6px double rgb(12, 91, 105);
+    padding: 10px;
+
+    display: flex;              
+    justify-content: center;    
+    align-items: center;
+    font-size: 16px;
+    font-weight: bolder;
 }
 
 #menubar ul {
@@ -29,8 +44,26 @@ html * {
     align-items: center;
 }
 
+#infolist {
+    flex: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    list-style: none;
+    gap: 8%;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
 
 #menubar a {
+    color: black;
+    padding: 10px;
+    margin: 0;
+    text-decoration: none;
+}
+
+#infolists li {
     color: black;
     padding: 10px;
     margin: 0;
@@ -40,9 +73,60 @@ html * {
 h1 {
     font-family: "UnifrakturCook", 'serif';
     text-align: center;
+    padding-top: 80px;
+    font-size: 50px;
 }
 
 h2 {
     font-family: "UnifrakturCook", 'serif';
     padding-left: 12vw;
+    padding-top: 40px;
+    font-size: 30px;
+    text-decoration: dashed;
+}
+
+.santa_paragraph {
+    width: 60%;
+}
+
+#santa_bible {
+    width: 350px;
+    position: absolute;
+    left: 810px;
+    bottom: -675px;
+}
+
+#star {
+    background: linear-gradient(70deg, #ff0000, #350853);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+#coolguy {
+    width: 60px;
+    transition: all 6s ease-in;
+}
+
+#menubar li {
+    transition: all 6s ease-in;
+}
+
+#menubar li:active{
+    transform: scale(0.1) rotate(3turn);
+}
+
+#poem {
+    font-family: "UnifrakturCook", 'serif';
+    text-align: center;
+    transition: all 10s ease-in;
+
+    background: linear-gradient(0deg, #1f1041, #1d6e33);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+#poem:active {
+    transform: scale(0.2) rotate(3turn);
 }

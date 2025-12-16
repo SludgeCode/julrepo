@@ -11,140 +11,260 @@
       href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/7d524adaae.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Christmas site</title>
   </head>
   <body>
+    <title>Christmas</title>
     <audio src="sounds/julmusik.wav" controls loop></audio>
     <nav id="menubar">
       <ul>
         <li><a href="#intro">Introduction</a></li>
         <li><a href="#origin">Christmas Origin</a></li>
-        <li><a href="#tradi">Cristmas Traditions</a></li>
+        <li><a href="#tradi">Christmas Traditions</a></li>
+        <li><a href="#bak">Christmas Baking</a></li>
         <li><a href="#sum">Summary</a></li>
+        <li>
+          <img src="imgs/coolguy.png" alt="cool guy image" id="coolguy" />
+        </li>
       </ul>
     </nav>
-    <section id="intro"></section>
-    <h1>Introductions</h1>
+    <section id="intro">
+      <h1>Introductions</h1>
 
-    <section id="origin"></section>
-    <h1>The Origin of Christmas</h1>
+      <p id="poem">
+        In winter's drawing-room, beneath a ceiling of pewter light,<br />
+        I stand, a gentleman of curiosity, admiring the white. <br />
+        The garden wears its powdered lace with most fastidious grace, <br />
+        Each flake a tiny crystal, an objet d'art upon my face. <br />
+        I find my palate tempted by that pristine, transient fare, <br />
+        A delicate communion with the very breath of air. <br />
+        <br />
+        Not with vulgar haste, nor like a child in wanton play, <br />
+        But with measured reverence, as one would sip a rare café. <br />
+        I pluck a single snowflake from the hem of evening's coat, <br />
+        Place it between tongue and thought, and give my manners note. <br />
+        So let the drawing-room approve, let silver spoons bear witness: <br />
+        I taste the winter's courtesy, and call it gentle fitness.
+      </p>
+    </section>
 
-    <h2>Biblical beginnings</h2>
+    <section id="origin">
+      <h1>The Origin of Christmas</h1>
 
-    <p>
-      The story of Christmas as commonly told begins in the New Testament,
-      primarily in the Gospels of Luke and Matthew. Luke gives a detailed
-      nativity scene: Mary and Joseph in Bethlehem, a birth in humble
-      circumstances, a manger as the infant's resting place, and nearby
-      shepherds who are visited by angels announcing a child's birth. Matthew
-      focuses on the visit of the Magi, Herod's uneasy reaction, and the
-      family's subsequent flight to Egypt. Together these narratives established
-      the key images, the infant Jesus, the stable, the shepherds, and the
-      visitors from afar, that would anchor later celebrations.
-    </p>
+      <h2>Biblical beginnings</h2>
 
-    <p>
-      These Gospel episodes were never written as a festival handbook; they are
-      theological stories emphasizing who Jesus was and what his birth meant.
-      Early Christian communities read and remembered these accounts in worship
-      and preaching rather than marking them as a universal birthday
-      celebration. Over centuries, however, the evocative details in the texts
-      inspired artistic depictions, liturgical readings, and popular devotion
-      that shaped how ordinary people pictured and commemorated the nativity.
-    </p>
+      <p class="santa_paragraph">
+        The story of Christmas as commonly told begins in the New Testament,
+        primarily in the Gospels of Luke and Matthew. Luke gives a detailed
+        nativity scene: Mary and Joseph in Bethlehem, a birth in humble
+        circumstances, a manger as the infant's resting place, and nearby
+        shepherds who are visited by angels announcing a child's birth. Matthew
+        focuses on the visit of the Magi, Herod's uneasy reaction, and the
+        family's subsequent flight to Egypt. Together these narratives
+        established the key images, the infant Jesus, the stable, the shepherds,
+        and the visitors from afar, that would anchor later celebrations.
+      </p>
 
-    <p>
-      The nativity's memorable symbols, the manger as a sign of humility, angels
-      as messengers, and the newborn as a light in a dark world, made the story
-      resonant beyond church walls. As Christianity spread geographically and
-      culturally, these images were retold in diverse idioms: sermons, hymns,
-      murals, and dramatic enactments. That gradual diffusion meant the biblical
-      story became both a theological claim and a shared cultural narrative,
-      providing the raw material from which later seasonal practices would be
-      woven.
-    </p>
+      <img src="imgs/santa_bible.png" alt="" id="santa_bible" />
 
-    <h2>The North Star and the Magi</h2>
+      <p class="santa_paragraph">
+        These Gospel episodes were never written as a festival handbook; they
+        are theological stories emphasizing who Jesus was and what his birth
+        meant. Early Christian communities read and remembered these accounts in
+        worship and preaching rather than marking them as a universal birthday
+        celebration. Over centuries, however, the evocative details in the texts
+        inspired artistic depictions, liturgical readings, and popular devotion
+        that shaped how ordinary people pictured and commemorated the nativity.
+      </p>
 
-    <p>
-      The account of wise men guided by “a star in the east” created a powerful
-      motif linking the nativity to the heavens. In Matthew's telling, these
-      Magi, travelers from distant lands, follow a celestial sign to find and
-      honor the child. The ambiguous nature of the star allowed later
-      interpreters to treat it as everything from a divine portent to an unusual
-      astronomical event, so it functioned as both sacred symbol and an
-      invitation to wonder about cosmic meaning.
-    </p>
+      <p>
+        The nativity's memorable symbols, the manger as a sign of humility,
+        angels as messengers, and the newborn as a light in a dark world, made
+        the story resonant beyond church walls. As Christianity spread
+        geographically and culturally, these images were retold in diverse
+        idioms: sermons, hymns, murals, and dramatic enactments. That gradual
+        diffusion meant the biblical story became both a theological claim and a
+        shared cultural narrative, providing the raw material from which later
+        seasonal practices would be woven.
+      </p>
 
-    <p>
-      Artists, poets, and preachers seized on the star-and-visitor image because
-      it connects the local, human birth scene to a universal story. The Magi's
-      journey emphasized themes of recognition and homage from outside Israel,
-      suggesting the birth had significance for the wider world. Over time the
-      Magi and their guiding light became staples of nativity art and pageantry,
-      reinforcing the idea that the birth of Jesus was an event of both earthly
-      humility and cosmic notice.
-    </p>
+      <h2>
+        The North Star and the Magi <i class="fa-solid fa-star" id="star"></i>
+      </h2>
 
-    <h2>Pagan seasons and winter festivals</h2>
+      <p>
+        The account of wise men guided by “a star in the east” created a
+        powerful motif linking the nativity to the heavens. In Matthew's
+        telling, these Magi, travelers from distant lands, follow a celestial
+        sign to find and honor the child. The ambiguous nature of the star
+        allowed later interpreters to treat it as everything from a divine
+        portent to an unusual astronomical event, so it functioned as both
+        sacred symbol and an invitation to wonder about cosmic meaning.
+      </p>
 
-    <p>
-      Long before Christian communities framed the nativity into seasonal
-      practice, many societies observed the winter solstice with rituals meant
-      to mark the year's turning. Roman Saturnalia, with its feasting and
-      temporary overturning of social norms, and Germanic Yule, with its fires
-      and evergreen symbolism, expressed communal hopes for renewed light and
-      growth. These midwinter observances already shaped local calendars, social
-      rhythms, and symbolic vocabularies in the regions where Christianity later
-      spread.
-    </p>
+      <p>
+        Artists, poets, and preachers seized on the star-and-visitor image
+        because it connects the local, human birth scene to a universal story.
+        The Magi's journey emphasized themes of recognition and homage from
+        outside Israel, suggesting the birth had significance for the wider
+        world. Over time the Magi and their guiding light became staples of
+        nativity art and pageantry, reinforcing the idea that the birth of Jesus
+        was an event of both earthly humility and cosmic notice.
+      </p>
 
-    <p>
-      When Christianity encountered these established winter customs, the
-      interaction was pragmatic and creative rather than purely oppositional.
-      Certain seasonal elements, lights, communal meals, music, and symbolic
-      evergreens, found new meanings within Christian narratives about light,
-      renewal, and God's entry into the world. The result was not a simple
-      replacement but a layered practice: older seasonal rites were reframed in
-      Christian language, and in turn the Christian nativity acquired forms and
-      markers that made it familiar and meaningful in a variety of cultural
-      settings.
-    </p>
+      <h2>Pagan seasons and winter festivals</h2>
 
-    <h2>Saint Nicholas of Myra</h2>
+      <p>
+        Long before Christian communities framed the nativity into seasonal
+        practice, many societies observed the winter solstice with rituals meant
+        to mark the year's turning. Roman Saturnalia, with its feasting and
+        temporary overturning of social norms, and Germanic Yule, with its fires
+        and evergreen symbolism, expressed communal hopes for renewed light and
+        growth. These midwinter observances already shaped local calendars,
+        social rhythms, and symbolic vocabularies in the regions where
+        Christianity later spread.
+      </p>
 
-    <p>
-      Saint Nicholas, a fourth-century bishop from the city of Myra in what is
-      now southwestern Turkey, became famous across the Christian world for acts
-      of charity and protection. Legends about him, giving dowries to poor
-      girls, saving sailors, and offering secret gifts, circulated widely in the
-      medieval period. These stories portrayed Nicholas as a model of Christian
-      generosity and made his memory a natural reference point for seasonal acts
-      of giving.
-    </p>
+      <p>
+        When Christianity encountered these established winter customs, the
+        interaction was pragmatic and creative rather than purely oppositional.
+        Certain seasonal elements, lights, communal meals, music, and symbolic
+        evergreens, found new meanings within Christian narratives about light,
+        renewal, and God's entry into the world. The result was not a simple
+        replacement but a layered practice: older seasonal rites were reframed
+        in Christian language, and in turn the Christian nativity acquired forms
+        and markers that made it familiar and meaningful in a variety of
+        cultural settings.
+      </p>
 
-    <p>
-      Over time Nicholas's personal cult and his feast day on December 6
-      encouraged localized gift-giving customs and charitable observances,
-      especially in northern and western Europe. Communities celebrating his
-      memory often enacted stories about his kindness, which reinforced the idea
-      that generosity to the vulnerable belonged to the spirit of the season.
-      The accumulation of tales and local practices around Nicholas provided a
-      human, exemplary figure who helped shape the developing cultural season
-      connected to the nativity.
-    </p>
+      <h2>Saint Nicholas of Myra</h2>
 
-    <h2>The transformation into Santa Claus</h2>
+      <p>
+        Saint Nicholas, a fourth-century bishop from the city of Myra in what is
+        now southwestern Turkey, became famous across the Christian world for
+        acts of charity and protection. Legends about him, giving dowries to
+        poor girls, saving sailors, and offering secret gifts, circulated widely
+        in the medieval period. These stories portrayed Nicholas as a model of
+        Christian generosity and made his memory a natural reference point for
+        seasonal acts of giving.
+      </p>
 
-    <p>As Saint Nicholas's legends traveled north into Europe and later across the Atlantic, they mixed with regional folklore, language shifts, and popular storytelling. The Dutch Sinterklaas tradition, for example, preserved elements of Nicholas’s persona, a kindly, gift-giving bishoply figure, but adapted them into local costume, calendar customs, and tales. In the 18th and 19th centuries, writers and illustrators in the English-speaking world further reshaped these images, emphasizing the joyful, secular aspects of a winter gift-bringer.</p>
-    
-    <p></p>
-    <section id="tradi"></section>
-    <h1>The Traditions of Chirstmas</h1>
+      <p>
+        Over time Nicholas's personal cult and his feast day on December 6
+        encouraged localized gift-giving customs and charitable observances,
+        especially in northern and western Europe. Communities celebrating his
+        memory often enacted stories about his kindness, which reinforced the
+        idea that generosity to the vulnerable belonged to the spirit of the
+        season. The accumulation of tales and local practices around Nicholas
+        provided a human, exemplary figure who helped shape the developing
+        cultural season connected to the nativity.
+      </p>
 
-    <section id="sum"></section>
-    <h1>Summary</h1>
+      <h2>The transformation into Santa Claus</h2>
 
-    <footer></footer>
+      <p>
+        As Saint Nicholas's legends traveled north into Europe and later across
+        the Atlantic, they mixed with regional folklore, language shifts, and
+        popular storytelling. The Dutch Sinterklaas tradition, for example,
+        preserved elements of Nicholas's persona, a kindly, gift-giving bishoply
+        figure, but adapted them into local costume, calendar customs, and
+        tales. In the 18th and 19th centuries, writers and illustrators in the
+        English-speaking world further reshaped these images, emphasizing the
+        joyful, secular aspects of a winter gift-bringer.
+      </p>
+
+      <p>
+        By the nineteenth century the figure now known as Santa Claus had
+        emerged from a long process of cultural blending: a historical saint’s
+        reputation, folk customs, poetic invention, and visual art combined to
+        create a broadly recognizable character. While modern commercial
+        portrayals added stylistic details and spread a standardized look, the
+        essential developmental arc, from a fourth-century charitable bishop to
+        a festive seasonal figure, shows how Christmas traditions evolve by
+        retelling, adapting, and repurposing earlier stories.
+      </p>
+    </section>
+    <section id="tradi">
+      <h1>The Traditions of Christmas</h1>
+
+      <h2>Decorating the Christmas tree</h2>
+
+      <p>
+        Bringing an evergreen into the home and dressing it with lights and
+        ornaments is a ritual that turns a patch of winter into a small,
+        glittering stage. The tree's lights chase back the long nights, and
+        ornaments, new and heirloom, fold private memories into a shared,
+        seasonal display.
+      </p>
+
+      <p>
+        Beyond the visual, the tree works as a living symbol, a reminder that
+        life and color persist through cold months, and a focal point for family
+        rituals like trimming, telling stories about particular baubles, or
+        placing a special topper. It's practical, communal, and slightly
+        theatrical, the sort of tradition that both anchors a household's
+        holiday routine and invites everyone to take part in a little creative
+        show.
+      </p>
+
+      <h2>Exchanging gifts</h2>
+
+      <p>
+        Giving and receiving presents at Christmas compresses big ideas,
+        gratitude, generosity, surprise, into small, tangible packages. Whether
+        wrapped by hand or slipped into a stocking, gifts provide a moment to
+        show attention, a chosen book, a homemade treat, or simply the act of
+        sharing something with another person.
+      </p>
+
+      <p>
+        The practice carries both warmth and complexity, it can be an expression
+        of love and thoughtfulness, and also a social custom that prompts
+        planning and negotiation. At its best, gift-giving creates a pause in
+        the year for reflection on relationships, turning ordinary objects into
+        markers of care and memory.
+      </p>
+
+      <h2>Singing carols</h2>
+
+      <p>
+        Singing carols gathers words and melody into a communal act that lights
+        up public and private spaces alike. Groups sing in churches, around a
+        piano, or door-to-door, and those familiar tunes, sacred or secular, map
+        the season's stories and moods onto sound.
+      </p>
+
+      <p>
+        Caroling does more than entertain, it connects people across
+        generations, teaches or retells shared narratives, and invites
+        participation rather than passive observation. A simple song can turn a
+        cold evening into something neighborly, offering warmth through harmony
+        and a sense that the holiday is something made together.
+      </p>
+    </section>
+    <section id="bak">
+      <h1>Baking Treats for Christmas</h1>
+      <p>
+        once people got bored of Christ's blood and body, they started craving
+        something more.
+      </p>
+    </section>
+    <section id="sum">
+      <h1>Summary</h1>
+    </section>
+
+    <footer>
+      <ul id="infolist">
+        <li>name: Elliot D</li>
+        <li>occupation: santa</li>
+        <li>residence: south mexico</li>
+        <li>passtime: lava bathing</li>
+        <li>fears: bordom</li>
+      </ul>
+    </footer>
   </body>
 </html>
